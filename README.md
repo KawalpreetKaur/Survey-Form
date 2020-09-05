@@ -9,3 +9,5 @@ Th form has series of checkboxes having several fields listing about the emotion
 At last, the form is presented with a text area for additional comments along with the "submit" button to submit all the inputs of the user.
 
 Various CSS features have been used to make the form look quite interesting and appealing.
+
+![Uploading Screenshot (349).png…]()

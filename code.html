@@ -1,0 +1,163 @@
+
+<img class="image_one" src="https://greatbrook.com/wp-content/uploads/2015/08/hand-making-survey-choice-450x429.jpg">
+<div class ="header">
+  <h1 id="title">Good Vibes Form</h1>
+</div>
+<form id="survey-form" method="GET"      
+      action= "https://crossorigin.me/https://freecodecamp.com">
+<div id="checklist-div" class="rowTab">
+<div id="form-outer">
+   
+    <h2>Tell us something positive that happened to you today!</h2>
+    <div id="name-div" class="rowTab">
+      <div id="name-label-div" class="labels">
+        <label id="name-label" for="name">
+          Name  
+        </label>
+      </div>
+    <div id="namefield" class="rightTab">
+        <input id="name" 
+               autofocus type="text" 
+               name="name"  
+               class="input-field" 
+               placeholder="Enter your name" 
+               required>
+      </div>
+    </div>
+  <div id="email-div" class="rowTab">
+      <div id="email-label-div" class="labels">
+        <label id="email-label" for="email">
+          Email
+          <br><small>*Required</small> 
+        </label>
+      </div>
+    <div id="email-input" class="rightTab">
+        <input type="email" 
+               name="email" 
+               id="email" 
+               class="input-field" 
+               placeholder="Enter your email address"
+               required>
+      </div>
+    </div>
+  <div id="scales-div" class="rowTab">
+      <div id="scales-div" class="labels">
+        <label id="number-label" for="scales">
+          Rate from 1-10 about your experience 
+        </label>
+      </div>
+    <div id="lessons-input"class="rightTab">
+        <input type="number" 
+               name="lesson" 
+               id="number" 
+               min="1" max="10" 
+               class="input-field" 
+               placeholder="Select the number">
+      </div>
+    </div>
+  <div id="exp-dropdown-div" class="rowTab">
+      <div id="exp-dropdown-label" class="labels">
+        <label for="experience">
+          Where did it happen?
+        </label>
+    </div>
+    <div id="exp-dropdown-opts" class="rightTab">
+        <select id="dropdown" class="dropdown">
+          <option disabled value selected>
+            Select an option</option>
+          <option value="At home">
+            At home</option>
+          <option value="At work">
+            At work</option>
+          <option value="On the street">
+            On the street</option>
+          <option value="other">
+            Other</option>
+        </select>
+      </div>
+    </div>
+  <div id="rate-radio-div" class="rowTab">
+      <div id="rate-radio-label" class="labels">
+        <label for="userRating">
+          At what time of day did it happen?
+        </label>
+      </div>
+  <div id="rate-radio-opts" class="rightTab">
+        <ul id="rate-opts-list" style="list-style: none;">
+          <li id="opt-1" class="radio">
+            <label>1 - Morning
+              <input name="radio-buttons" 
+                     value="1"  
+                     type="radio" 
+                     class="userRatings">              
+            </label>            
+          </li>
+          <li id="opt-2" class="radio">
+            <label>2 - Noon
+              <input name="radio-buttons" 
+                     value="2"  
+                     type="radio" 
+                     class="userRatings">
+            </label>
+          </li>
+          <li id="opt-3" class="radio">
+            <label>3 - Evening
+              <input name="radio-buttons" 
+                     value="3"  
+                     type="radio" 
+                     class="userRatings">              
+            </label>            
+          </li>
+        </ul>
+      </div>
+    </div>
+  <div id="checklist-div" class="rowTab">  
+      <div id="checklist-label" class="labels">
+        <label for="checklist">
+         What did you experience?
+        </label>
+      </div>
+    <div id="checklist-opts" class="rightTab">
+        <label class="container 1"> 
+          Excitement 
+          <input value="1" type="checkbox" >
+          <span class="checkmark"></span>
+        </label>
+     <label class="container 1"> 
+          Humbleness 
+          <input value="1" type="checkbox" >
+          <span class="checkmark"></span>
+        </label>
+      <label class="container 1"> 
+          Emotional 
+          <input value="1" type="checkbox" >
+          <span class="checkmark"></span>
+        </label>
+      <label class="container 1"> 
+          Enthusiastic  
+          <input value="1" type="checkbox" >
+          <span class="checkmark"></span>
+        </label>
+      <label class="container 1"> 
+          Admiration
+          <input value="1" type="checkbox" >
+          <span class="checkmark"></span>
+        </label>
+    </div>
+  </div>
+  <div id="comments-div" class="rowTab">
+      <div id="comments-label" class="labels">
+        <label for="comments">
+         Please describe your experience in brief.
+        </label>
+      </div>
+      <div id="comments-input"class="rightTab">
+        <textarea id="comments" class="input-field" 
+                  style="height:50px;resize:vertical;" 
+                  name="comment" 
+                  placeholder="Enter your experience here!"></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</div>

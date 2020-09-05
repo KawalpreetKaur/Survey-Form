@@ -11,6 +11,7 @@ At last, the form is presented with a text area for additional comments along wi
 Various CSS features have been used to make the form look quite interesting and appealing.
 
 
-![Screenshot (349)](https://user-images.githubusercontent.com/40642572/92311624-39347380-efd6-11ea-824b-77068db1c3fd.png)
+![Screenshot (349)](https://user-images.githubusercontent.com/40642572/92311681-e1e2d300-efd6-11ea-92cd-6cbcb7ff6165.png)
+
 
 

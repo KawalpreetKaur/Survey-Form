@@ -10,4 +10,7 @@ At last, the form is presented with a text area for additional comments along wi
 
 Various CSS features have been used to make the form look quite interesting and appealing.
 
-![Uploading Screenshot (349).png…]()
+
+![Screenshot (349)](https://user-images.githubusercontent.com/40642572/92311624-39347380-efd6-11ea-824b-77068db1c3fd.png)
+
+
